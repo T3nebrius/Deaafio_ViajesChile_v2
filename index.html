@@ -3,9 +3,283 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <section id="landing">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent d-flex justify-content-end">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/img/viajes.svg" class="logo_img">
+                        <span class="texto_nav texto_logo_nav ms-2">Viajes Chile</span>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto d-flex mb-2 mb-lg-0 me-5">
+                          <li class="nav-item">           
+                            <a class="nav-link texto_nav" aria-current="page" href="#landing">Inicio</a>
+                          </li>
+                          <li class="nav-item">  
+                              <a class="nav-link texto_nav" aria-current="page" href="#who_are">Quienes Somos</a>
+                            </li>
+                          <li class="nav-item">  
+                            <a class="nav-link texto_nav" aria-current="page" href="#outstanding">Destacados</a>
+                          </li>
+                          <li class="nav-item">  
+                            <a class="nav-link texto_nav" aria-current="page" href="#testimmonials">Testimonios</a>
+                          </li>
+                          <li class="nav-item">  
+                            <a class="nav-link texto_nav" aria-current="page" href="#contact">Contacto</a>
+                          </li>
+                        </ul>
+                    </div>
+            </nav>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100 carrusel_img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Norte de Chile</h5>
+                        <p>Conozca la magia de estos increíbles parajes del desierto de Atacama</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100 carrusel_img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Isla de Pascua</h5>
+                        <p>Sumérgase en el misterio de Isla de Pascua, sus costumes y Moais típicos</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100 carrusel_img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Torres del Paine</h5>
+                        <p>Cercado por el parque homónimo, esconde preciosa vistas únicas para el turista aventureo</p>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="who_are">
+        <div class="container text-center">
+            <h2>Quiénes somos?</h2>
+            <hr class="light">
+            <div class="row align-items-start">
+                <div class="col-6 col-md-6"><img class="who_are_img" src="assets/img/quienes-somos.jpg"></div>
+                <div class="col-12 col-md-6 text-start who_are_text">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Vestibulum bibendum tristique mollis. Mauris hendrerit 
+                        convallis purus eget aliquet. Duis suscipit eu lacus ut 
+                        aliquam. Praesent et vehicula tortor. Proin eget lacus 
+                        in massa elementum aliquet. In porttitor arcu non felis 
+                        tristique, id tincidunt augue viverra. Vestibulum ante 
+                        ipsum primis in faucibus orci luctus et ultrices posuere 
+                        cubilia curae; Pellentesque volutpat blandit urna posuere 
+                        feugiat.
+                    </p>
+                    <p>
+                        Duis sodales leo nec felis finibus vulputate. Quisque 
+                        mollis, sapien vitae elementum cursus, lorem tortor 
+                        maximus nunc, sit amet posuere magna erat a mauris. 
+                        Pellentesque quis ex quis massa vehicula cursus. Fusce 
+                        et ex elit. Donec posuere quam at iaculis pretium. 
+                        Vestibulum nec purus laoreet, dignissim eros efficitur, 
+                        faucibus quam. Quisque consequat commodo ligula et suscipit. 
+                        Curabitur accumsan ex ac nibh sodales lobortis. Etiam 
+                        consectetur nisl sed sapien tempor, vel ornare mauris 
+                        interdum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="outstanding">
+        <div class="container text-center">
+            <h2>Destacados</h2>
+            <hr class="light">
+        </div>
+        <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row g-0" style="display: flex;">
+                        <div name="imagen_card" class="col-md-4 d-flex" style="align-items: stretch;">
+                            <img src="assets/img/card1.jpg" class="img-fluid rounded-start" style="object-fit: cover; height: 100%;" alt="...">
+                        </div>
+                        <div name="texto_card" class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Región de los lagos</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum lacus feugiat neque lacinia euismod. Aliquam eget egestas elit.</p>
+
+                            </div>
+                            <div class="container d-flex justify-content-between align-items-center div_card_prices">
+                                <p class="card-text ms-3"><i class="fa-solid fa-plane-up text_prices"></i><small class="text-muted ms-3 text_prices">Vuelos desde:</small></p><p class="me-3 prices">$159.990</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row g-0 d-flex">
+                        <div name="imagen_card" class="col-md-4 d-flex" style="align-items: stretch;">
+                            <img src="assets/img/card2.jpg" class="img-fluid rounded-start" style="object-fit: cover; height: 100%;" alt="...">
+                        </div>
+                        <div name="texto_card" class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Región de los lagos</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum lacus feugiat neque lacinia euismod. Aliquam eget egestas elit.</p>
+
+                            </div>
+                            <div class="container d-flex justify-content-between align-items-center div_card_prices">
+                                <p class="card-text ms-3"><i class="fa-solid fa-plane-up text_prices"></i><small class="text-muted ms-3 text_prices">Vuelos desde:</small></p><p class="me-3 prices">$189.990</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row g-0" style="display: flex;">
+                        <div name="imagen_card" class="col-md-4 d-flex" style="align-items: stretch;">
+                            <img src="assets/img/card3.jpg" class="img-fluid rounded-start" style="object-fit: cover; height: 100%;" alt="...">
+                        </div>
+                        <div name="texto_card" class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Región de los lagos</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum lacus feugiat neque lacinia euismod. Aliquam eget egestas elit.</p>
+
+                            </div>
+                            <div class="container d-flex justify-content-between align-items-center div_card_prices">
+                                <p class="card-text ms-3"><i class="fa-solid fa-plane-up text_prices"></i><small class="text-muted ms-3 text_prices">Vuelos desde:</small></p><p class="me-3 prices">$289.990</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row g-0" style="display: flex;">
+                        <div name="imagen_card" class="col-md-4 d-flex" style="align-items: stretch;">
+                            <img src="assets/img/card4.jpg" class="img-fluid rounded-start" style="object-fit: cover; height: 100%;" alt="...">
+                        </div>
+                        <div name="texto_card" class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Región de los lagos</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum lacus feugiat neque lacinia euismod. Aliquam eget egestas elit.</p>
+
+                            </div>
+                            <div class="container d-flex justify-content-between align-items-center div_card_prices">
+                                <p class="card-text ms-3"><i class="fa-solid fa-plane-up text_prices"></i><small class="text-muted ms-3 text_prices">Vuelos desde:</small></p><p class="me-3 prices">$259.990</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        </div>
+    </section>
+    <section id="testimmonials">
+        <div class="container text-center">
+            <h2>Testimonios</h2>
+            <hr class="light">
+        </div>
+        <div class="container text-center">
+            <div class="row align-items-start align-content-center">
+                <div class="col-12 col-md-4 testimmonials">
+                    <p class="testimmonials__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Vestibulum bibendum tristique mollis. Mauris hendrerit 
+                        convallis purus eget aliquet. Duis suscipit eu lacus.
+                    </p>
+                    <img class="testimmonials__img" src="assets/img/testimonio1.jpg">
+                    <h5 class="testimmonials__text--person">Mariela</h5>
+                </div>
+                <div class="col-12 col-md-4 testimmonials">
+                    <p class="testimmonials__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Vestibulum bibendum tristique mollis. Mauris hendrerit 
+                        convallis purus eget aliquet.
+                    </p>
+                    <img class="testimmonials__img" src="assets/img/testimonio2.jpg">
+                    <h5 class="testimmonials__text--person">Christian</h5>
+                </div>
+                <div class="col-12 col-md-4 testimmonials">
+                    <p class="testimmonials__text"> Lorem ipsum dolor sit amet, Duis suscipit eu lacus ut 
+                        aliquam. Praesent et vehicula tortor. Consectetur adipiscing 
+                        Vestibulum bibendum tristique mollis. 
+                    </p>
+                    <img class="testimmonials__img" src="assets/img/testimonio3.jpg">
+                    <h5 class="testimmonials__text--person">Fernanda</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container text-center">
+            <h2>Contacto</h2>
+            <hr class="light">
+        </div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="contact_form col-12 col-md-6">
+              <form>
+                <div class="row mb-4 mt-4">
+                  <div class="col">
+                    <label for="full_name">Nombre</label><i class="fa-solid fa-circle-info"></i>
+                    <input id="full_name" type="text" class="form-control" aria-label="First name" required>
+                  </div>
+                  <div class="col">
+                    <label for="email">Email</label><i class="fa-solid fa-circle-info"></i>
+                    <input id="email" class="form-control" type="email" required>
+                  </div>
+                </div>
+                <div class="row mb-4">
+                  <div class="col">
+                    <label for="message">Mensaje</label><i class="fa-solid fa-circle-info"></i>
+                    <textarea id="message" class="form-control" required></textarea>
+                  </div>
+                </div>
+                <div class="col">
+                    <input id="terms" type="checkbox" class="me-3"><label for="terms"> Acepto los términos y condiciones</label>
+                </div>
+                <div class="row mb-4">
+                  <div class="col">
+                    <button class="form-control botonPrincipal">Enviar</button>
+                  </div>
+                </div>
+            </form>
+            </div>
+            <div class="contact_item col-12 col-md-6 alineacionContenidoDerecho">
+              <div class="item_datos"><i class="fa-solid fa-phone"></i><p>+56 987654321</p></div>
+              <div class="item_datos"><i class="fa-solid fa-envelope"></i><p>contacto@viajeschile.com</p></div>
+              <div class="item_datos"><i class="fa-brands fa-linkedin"></i><p>ViajesChile</p></div>
+              <div class="item_datos"><i class="fa-brands fa-instagram"></i><p>viajes_chile</p></div>
+            </div>
+          </div>
+        </div>
+      </section> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/6db9ae3f72.js" crossorigin="anonymous"></script>
 </body>
 </html>
